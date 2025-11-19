@@ -15,7 +15,19 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
-
+```
+# Developed by:Rihan Ahamed.S
+# Register no:212224040276
+def circulate():
+    nums = eval(input())
+    n = int(input())
+    result = nums[n:] + nums[:n]
+    print("After circulating the values are:", result)
+```
 ## Output:
+<img width="1289" height="510" alt="image" src="https://github.com/user-attachments/assets/8ce18fb6-3d73-497f-932e-1a0323973ec9" />
+
 
 ## Result:
+Thus the python program to circulate the n variables using function concept successfully executed
+
